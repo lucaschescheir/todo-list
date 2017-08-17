@@ -1,0 +1,57 @@
+html {
+  background: grey;
+}
+body {
+  width: 415px;
+  height: 450px;
+  border: 1px solid red;
+  padding: 0px 20px;
+  background: lightyellow;
+}
+
+#enter {
+  margin-top: 20px;
+  display: inline-block;
+  height: 30px;
+  width: 275px;
+}
+
+#button {
+  margin-left: 10px;
+  width: 80px;
+  font-size: 1em;
+  padding: 40px;
+}
+#remove {
+  width: 100px;
+  margin-left: 100px;
+}
+#complete {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+}
+#todo-list{
+
+  height: 180px;
+  padding: 20px;
+}
+h4 {
+  margin: 0px;
+  text-decoration: underline;
+}
+li {
+  font-size: 1.5em;
+  color: blue;
+  list-style: none;
+  margin: 0px;
+}
+h2 {
+  margin: 0px;
+margin: 15px;
+}
+p {
+  display: inline-block;
+  color: red;
+  margin: 0px;
+}
